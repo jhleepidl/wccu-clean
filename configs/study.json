@@ -1,0 +1,30 @@
+{
+  "source_tokenizer": {
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"
+  },
+  "bm25": {
+    "k1": 0.9,
+    "b": 0.4
+  },
+  "initial_source_caps": [
+    512,
+    1024,
+    2048
+  ],
+  "fallback_source_cap": 1024,
+  "gpt_reader": "gpt-4.1-2025-04-14",
+  "qwen_reader": "Qwen/Qwen3-4B-Instruct-2507",
+  "temperature": 0,
+  "output_limits": {
+    "static": 96,
+    "sentence": 128,
+    "oneshot": 1280
+  },
+  "bootstrap": {
+    "seed": 20260921,
+    "replicates": 20000,
+    "method": "paired_stratified_percentile",
+    "scope": "marginal_exploratory"
+  }
+}

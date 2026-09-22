@@ -1,0 +1,37 @@
+[
+  {
+    "id": "synthetic-1",
+    "question": "Where was the designer of Aster Observatory born?",
+    "stratum": "chain",
+    "docs": [
+      {
+        "id": "0",
+        "title": "Aster Observatory",
+        "text": "Aster Observatory was designed by the engineer Mara Lin.",
+        "sha256": "cdcf75af63949da30f0f6257f23ce6a4e80b38fc5ab7a7da945ab138c6d3e2cc",
+        "tokens": 42
+      },
+      {
+        "id": "1",
+        "title": "Mara Lin",
+        "text": "Mara Lin was born in Cedar Bay.",
+        "sha256": "0670a65702fff4f874405ccedc1f7136c63827b781c38723c7f6446c591d87c5",
+        "tokens": 38
+      },
+      {
+        "id": "2",
+        "title": "Cedar Bay",
+        "text": "Cedar Bay is a coastal town.",
+        "sha256": "260a282d8b5b2c3bd10f4db2af84c16b277ab28853af020b615a4468425a5f4c",
+        "tokens": 34
+      },
+      {
+        "id": "3",
+        "title": "Briar Telescope",
+        "text": "Briar Telescope was designed by Toma Reed.",
+        "sha256": "5e667f9efca3536f59be5a427a9a8db29ddbebb03a445b14faeb55a51f171dda",
+        "tokens": 43
+      }
+    ]
+  }
+]

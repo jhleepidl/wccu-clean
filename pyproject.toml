@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wccu-research-eval"
+version = "0.2.1"
+description = "Controlled evidence selection, selective reader evaluation, and bounded witness-validation kernels"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "scikit-learn>=1.4,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "regex>=2024.0"]
+tokenizer = ["tokenizers>=0.20,<1", "regex>=2024.0"]
+datasets = ["pyarrow>=19"]
+
+[project.scripts]
+wccu-eval = "wccu_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

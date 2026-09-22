@@ -1,0 +1,9 @@
+# Pinned dependencies for local tests and numerical replay.
+# Model serving and training dependencies are not specified by this file.
+numpy==2.3.5
+scikit-learn==1.8.0
+scipy==1.17.0
+pytest==9.0.2
+
+# Used by the optional exact local-Qwen byte-BPE replay.
+regex==2026.5.9

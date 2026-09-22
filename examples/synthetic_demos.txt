@@ -1,0 +1,1 @@
+Synthetic demonstration: identify the source, then read the linked record.

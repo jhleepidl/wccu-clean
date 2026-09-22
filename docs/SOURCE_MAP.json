@@ -1,0 +1,225 @@
+[
+  {
+    "source": "novelty_r29/common.py",
+    "sha256": "4eb0aefd8c5c941bd95993d4c842b402a7b3a578be3ab003a5cce9db6a340d47",
+    "symbols": [
+      "canonical",
+      "digest",
+      "tokens",
+      "frame",
+      "normalize",
+      "score_answer"
+    ]
+  },
+  {
+    "source": "novelty_r29/selectors.py",
+    "sha256": "d07dcf8f2ad8ca5d8dab86e6be7b6fd3ca3d5fff911ee57924060b463c0638dc",
+    "symbols": [
+      "scale",
+      "bm25",
+      "mention",
+      "features",
+      "select"
+    ]
+  },
+  {
+    "source": "novelty_r29/runtime.py",
+    "sha256": "1e3158e1a6f889b629d4ae77605b96e746f92f463cbaac61c45282281d3d4758",
+    "symbols": [
+      "get_features",
+      "canonical_mmr"
+    ]
+  },
+  {
+    "source": "novelty_r29/runtime.py",
+    "sha256": "1e3158e1a6f889b629d4ae77605b96e746f92f463cbaac61c45282281d3d4758",
+    "symbols": [
+      "next_query",
+      "first_sentence",
+      "extract",
+      "retrieval",
+      "messages"
+    ]
+  },
+  {
+    "source": "run_reasoning_r30.py",
+    "sha256": "67b9a3c9141cb533fb32a240c6c70193fa4fa7abd92f35a801ec1a9d6901467e",
+    "symbols": [
+      "terminal_parser"
+    ]
+  },
+  {
+    "source": "prototype/mosaic_wccu/anchor.py",
+    "target": "src/mosaic_wccu/anchor.py",
+    "sha256": "fcf382e194988c041a394f1f213718b055c8f3ccdc9e5c54e4f51ebcfa247239",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/anchor_v1.py",
+    "target": "src/mosaic_wccu/anchor_v1.py",
+    "sha256": "9329add4e3be1679a8735d348242975098ca69b7aa1ab688d4d62a70331dca23",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/benchmark_adapters.py",
+    "target": "src/mosaic_wccu/benchmark_adapters.py",
+    "sha256": "41bdd6d8c6c9b8c662a7abd7875e419e97ae9d92dbea7d459d5f715ec1ea4078",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/conflict.py",
+    "target": "src/mosaic_wccu/conflict.py",
+    "sha256": "271d3046fc3effdaf644da8e1863e0af800cf35e46a86284b74524c080464852",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/edit_trace.py",
+    "target": "src/mosaic_wccu/edit_trace.py",
+    "sha256": "84350883e49ae08b288a7dcf3257d8d2e952bf82db4605aad29767f63ac2f413",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/external_partition.py",
+    "target": "src/mosaic_wccu/external_partition.py",
+    "sha256": "e1f6e7184c180c0531df47f465828a1d630113a6447917b0e30efd54d8abe621",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/models.py",
+    "target": "src/mosaic_wccu/models.py",
+    "sha256": "93d2d44cc565228184547538adeba4982ed9f7f9cf7ad5fd4b00cf0749596e69",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/partition_benchmark.py",
+    "target": "src/mosaic_wccu/partition_benchmark.py",
+    "sha256": "d2a906575d83aa23b64113da37a17ffa88e4037e0d62029be9c9a489aeef1b62",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase3e.py",
+    "target": "src/mosaic_wccu/phase3e.py",
+    "sha256": "7dd32c24086589b1ae704dd12824bd57210cac297d2e1689287269a9983a85fd",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase3f.py",
+    "target": "src/mosaic_wccu/phase3f.py",
+    "sha256": "b09dc2a59e96996877ab34802b83c301e07e496ae817f226a01526a118c9457e",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase3h.py",
+    "target": "src/mosaic_wccu/phase3h.py",
+    "sha256": "5ed4366de3816ce173d37747bf9c2b6b7c2267ddc3bbdcbdf7936202053af1cc",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase3i.py",
+    "target": "src/mosaic_wccu/phase3i.py",
+    "sha256": "0d4814794faf9accb73ff6826fbb40377a522adb0fc1d513f9d5fa929b906b28",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase3j.py",
+    "target": "src/mosaic_wccu/phase3j.py",
+    "sha256": "9f8bb7c589a7f0030612ecb841dcb3b951bd9b7be610d4f22692a92ccb08a117",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase3l.py",
+    "target": "src/mosaic_wccu/phase3l.py",
+    "sha256": "7f4c11d38de83c7d5a205fdd8f28d79b29873053729b1ea778cb19dc7d376a42",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase3m.py",
+    "target": "src/mosaic_wccu/phase3m.py",
+    "sha256": "73b970c56664e44081132f4e067caed902205aacde0ebb381744f7a3ca935f0f",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase4_stats.py",
+    "target": "src/mosaic_wccu/phase4_stats.py",
+    "sha256": "0edb2587773bc4d8441a18bb26b9fcd9038cb069c67e54d674276831e1a346cd",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase4a.py",
+    "target": "src/mosaic_wccu/phase4a.py",
+    "sha256": "97bcd00ae420f35bb3ebdbf8b9ec9dc257e87466964e88e3f3aa70e314eab0fd",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase4d1.py",
+    "target": "src/mosaic_wccu/phase4d1.py",
+    "sha256": "da5876223838500aaa8f5e85942033f05642e379e7c43264d23024553c3a2394",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase4d2.py",
+    "target": "src/mosaic_wccu/phase4d2.py",
+    "sha256": "c7dd29e58a3e03875f0fe066c629ec89f2f10c7f9c6e6d5d0503c296de8e090d",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase4f.py",
+    "target": "src/mosaic_wccu/phase4f.py",
+    "sha256": "b8e14364152ece5ff72bd1ac188f2a5cfcf40c730a4c9230261fa120835a2984",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase5a.py",
+    "target": "src/mosaic_wccu/phase5a.py",
+    "sha256": "1ef1c00ca1e1dbec7c6b568d8d3d61eaa13b28cf69677593d927439219e152b1",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase5c.py",
+    "target": "src/mosaic_wccu/phase5c.py",
+    "sha256": "5c2eeb251555442f7152316f7169feac01bc11df5506f7907c8fa9a101562902",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase6a.py",
+    "target": "src/mosaic_wccu/phase6a.py",
+    "sha256": "17231c26a50175c733f386150266b69cb138a7b1a48295d3b675b2db34351d8b",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/phase6b.py",
+    "target": "src/mosaic_wccu/phase6b.py",
+    "sha256": "4ccb6a60e9b2a5935087286cf1592083c2cf3c38f65c513a722c4195ac476f73",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/revision_tuning.py",
+    "target": "src/mosaic_wccu/revision_tuning.py",
+    "sha256": "452690e0d51b33876a26e90152d7f0940d558dd32c054996638bc54eaa5e959f",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/segmentation.py",
+    "target": "src/mosaic_wccu/segmentation.py",
+    "sha256": "592ba135fc9f106d99435a033a1ad4bd438f28fbad29ddc66652e63e8cdc7cc4",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/semantic_tiles.py",
+    "target": "src/mosaic_wccu/semantic_tiles.py",
+    "sha256": "e759751a2a8e54fb3a09722252234dbb99ff04677e730c5908ae2f869f29f856",
+    "edit": "none"
+  },
+  {
+    "source": "prototype/mosaic_wccu/workload.py",
+    "target": "src/mosaic_wccu/workload.py",
+    "sha256": "72bf959faba53fce7ef1c991e81ded75152a5c9a1fb7bdde11415ea8b721b10c",
+    "edit": "none"
+  },
+  {
+    "module": "revision_kernel",
+    "engine_source": "native_signed_receipt/engine.py",
+    "engine_sha256": "5606f907806ab79f126e33b54a0afe8d431199321af8457612dfdbd44b1e96a2",
+    "changes": "Only import location of the unchanged reviewed BM25 helper changes. R26 workload functions are extracted without changing their algorithms. File I/O and machine-specific launch scripts are omitted."
+  }
+]

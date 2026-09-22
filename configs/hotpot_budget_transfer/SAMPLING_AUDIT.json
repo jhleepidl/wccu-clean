@@ -1,0 +1,23 @@
+{
+  "raw_rows": 7405,
+  "structurally_valid_rows": 7323,
+  "all_components": 6407,
+  "excluded_components": 1605,
+  "eligible_components": 4802,
+  "sample_size": 512,
+  "sample_types": {
+    "bridge": 426,
+    "comparison": 86
+  },
+  "prior_hotpot_query_ids": 1462,
+  "banned_candidate_titles": 21696,
+  "banned_candidate_bodies": 22400,
+  "selected_support_overlap_prior_candidates": 0,
+  "selected_support_overlap_between_components": 0,
+  "raw_sha256": "e3da074df24e8369009918aa5cdbdd254dadcde4c63f7569d36afd6f2268caa8",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "protocol_sha256": "1bfe62e82fd215f0c86ec3c96f864a8aae639e3d49cf3aa24fcb15460fb051f7",
+  "sample_sha256": "c9c4bdfd120804987b7f11ae1fd05846f9ce09cd8848f2cd6b39d7066172ff5f",
+  "jobs_sha256": "c6c687f02231413e1cef354fc562da5fe0aa574553169250286e86d9003709fc",
+  "labels_sha256": "51b7d211c2cf8e768df158b0079e2ab82b5d857bef4f212a909b7ff86199de46"
+}
