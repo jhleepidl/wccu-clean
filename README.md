@@ -1,8 +1,7 @@
 # Semantic Footprints
 
 Implementation and evaluation code for **Semantic Footprints for LLM Context:
-A Controlled Study of Coverage, Selective Retrieval, and Validation**, by
-Joohyun Lee and Wen-Syan Li.
+A Controlled Study of Coverage, Selective Retrieval, and Validation**.
 
 The experiments compare evidence selection under token budgets, answer generation
 with selective retrieval, and context reuse after source changes.
